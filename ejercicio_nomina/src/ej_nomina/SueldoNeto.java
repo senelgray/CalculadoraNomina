@@ -15,9 +15,9 @@ public class SueldoNeto {
 			
 			public double calcNeto() {
 				if(deducion <= 2000) {
-					return deducion *0.16;
+					return deducion *0.84;
 			}else {
-				return deducion*0.18;
+				return deducion*0.82;
 			}
 		
 		}
